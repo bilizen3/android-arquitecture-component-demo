@@ -1,4 +1,4 @@
-package com.spidev.android_arquitecture_component_demo.repository.model.entity;
+package com.spidev.android_arquitecture_component_demo.repository.local.entity;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;

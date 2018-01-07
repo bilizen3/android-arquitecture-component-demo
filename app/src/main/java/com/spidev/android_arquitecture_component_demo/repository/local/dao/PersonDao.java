@@ -1,14 +1,12 @@
-package com.spidev.android_arquitecture_component_demo.repository.model.dao;
+package com.spidev.android_arquitecture_component_demo.repository.local.dao;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 
-import com.spidev.android_arquitecture_component_demo.repository.model.entity.Person;
+import com.spidev.android_arquitecture_component_demo.repository.local.entity.Person;
 
-import java.sql.Array;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
