@@ -9,13 +9,13 @@ import android.arch.persistence.room.RoomDatabase;
 import com.spidev.android_arquitecture_component_demo.repository.local.dao.PersonDao;
 import com.spidev.android_arquitecture_component_demo.repository.local.dao.UserDao;
 import com.spidev.android_arquitecture_component_demo.repository.local.entity.Person;
-import com.spidev.android_arquitecture_component_demo.repository.local.entity.UserEntity;
+import com.spidev.android_arquitecture_component_demo.repository.local.entity.User;
 
 /**
  * Created by Bill on 26/12/2017.
  */
 
-@Database(entities = {Person.class, UserEntity.class}, version = 1, exportSchema = false)
+@Database(entities = {Person.class, User.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
     public abstract PersonDao PersonDao();

@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import com.spidev.android_arquitecture_component_demo.R
-import com.spidev.android_arquitecture_component_demo.model.UserData
 import com.spidev.android_arquitecture_component_demo.viewmodel.UserProfileViewModel
 
 import kotlinx.android.synthetic.main.activity_user_profile.*
@@ -24,18 +23,13 @@ class UserProfileActivity : AppCompatActivity() {
         setContentView(R.layout.activity_user_profile)
         setSupportActionBar(toolbar)
 
-        var userId = ""
-
+        /*var userId = ""
         userProfileViewModel = ViewModelProviders.of(this).get(UserProfileViewModel::class.java)
         userProfileViewModel.init(userId)
-
-
-        userProfileViewModel.userProfile.observe(this, Observer<UserData>{ user ->
+        userProfileViewModel.userProfile.observe(this, Observer<User>{ user ->
             //Update UI
 
-
-
-        })
+        })*/
 
 
         fab.setOnClickListener { view ->
