@@ -20,7 +20,7 @@ public interface PersonDao {
     @Query("SELECT * FROM Person")
     List<Person> getAll();
 
-    @Query("SELECT * FROM Person WHERE idPerson IN (:idPerson)")
+    @Query("SELECT * FROM Person WHERE IdPerson =:idPerson ")
     List<Person> loadAllByIds(int idPerson);
 
     @Insert

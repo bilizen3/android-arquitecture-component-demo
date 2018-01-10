@@ -13,7 +13,7 @@ import com.spidev.android_arquitecture_component_demo.repository.model.entity.Pe
  * Created by Bill on 26/12/2017.
  */
 
-@Database(entities = {Person.class}, version = 1, exportSchema = false)
+@Database(entities = {Person.class}, version = 1)
 public abstract class AppDatabase extends RoomDatabase {
     public abstract PersonDao PersonDao();
 }
